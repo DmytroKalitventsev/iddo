@@ -1,0 +1,31 @@
+// MEDIA
+$bp0: 1200px;
+$bp1: 1035px;
+$bp2: 950px;
+$bp3: 860px;
+$bp4: 767.98px;
+$bp5: 576px;
+$bp6: 430px;
+
+// padding tap and bottom of section
+	// padding tap and bottom on "min-width 950px"
+	$generalPaddingTop: 100px;
+	$generalPaddingBottom: 140px;
+	// padding tap and bottom on "max-width 950px"
+	$bp2PaddingTop: 80px;
+	$bp2PaddingBottom: 80px;
+	// padding tap and bottom on "max-width 767.98px"
+	$bp4PaddingTop: 60px;
+	$bp4PaddingBottom: 60px;
+	// padding tap and bottom on "max-width 576px"
+	$bp5PaddingTop: 50px;
+	$bp5PaddingBottom: 50px;
+
+// additional color of text site
+$addColorText: #363636;
+
+// additional color of elements
+$mainColorElements: #ca3c3c;
+
+// color of icons
+$mainColorIcons: #ca3c3c;

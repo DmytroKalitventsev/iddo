@@ -1,0 +1,70 @@
+:root {
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff;
+
+	@media (max-width: $bp2) {
+		.animate {
+			animation: none !important;
+		}
+	}
+}
+
+body {
+	background-color: #fff;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: clip;
+}
+
+[class*="__container"] {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.pages {
+	flex: 1 1 auto;
+}
+
+// .title {
+// 	font-weight: bold;
+// 	font-size: 2rem;
+// 	text-transform: uppercase;
+// 	letter-spacing: 2px;
+// 	line-height: 1.25;
+// 	text-align: left;
+// 	&_h1 {
+// 		text-align: center;
+// 		line-height: 1.25;
+// 	}
+// 	&_h2 {
+// 		font-size: 1.5rem;
+// 	}
+// 	&_h3 {
+// 		font-size: 1.2rem;
+// 	}
+// }
+
+// .button {
+// 	display: inline-block;
+// 	text-align: center;
+// 	line-height: 1;
+// 	font-weight: bold;
+// 	color: #fff;
+// 	padding: 21px 34px;
+// 	white-space: nowrap;
+// 	font-size: 1rem;
+// 	letter-spacing: 1px;
+// 	border-radius: 10px;
+// 	transition: background-color 0.2s ease 0s;
+// 	background-color: $addColorElements;
+// 	&:hover {
+// 		background-color: #ff9500;
+// 	}
+// }

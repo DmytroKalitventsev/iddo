@@ -1,0 +1,36 @@
+.header {
+	background: #fff;
+	border-bottom: 2px solid #adadad;
+	position: sticky;
+	width: 100%;
+	top: -1px;
+	z-index: 10;
+	&__container {
+		@include flex(space-between);
+		min-height: 100px;
+		column-gap: 40px;
+	}
+}
+.menu {
+	&__list {
+		@include flex;
+		flex-wrap: wrap;
+		column-gap: 40px;
+		font-size: 1.1rem;
+		line-height: 1.2;
+		letter-spacing: 2px;
+		white-space: nowrap;
+	}
+	&__link {
+		padding: 15px 0;
+		transition: color 0.2s ease 0s;
+		max-width: 265px;
+		overflow: hidden;
+		&:hover {
+			color: $mainColorElements;
+		}
+	}
+}
+.menu-button {
+	display: none;
+}
